@@ -1,0 +1,19 @@
+{
+  "name": "node-starter",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Node Starter Template",
+  "main": "dist/main.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn tsc --project tsconfig.json",
+    "lint:fix": "prettier --write src/**/*.{ts,js,tsx}"
+  },
+  "dependencies": {
+    "prettier": "2.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.14",
+    "typescript": "4.8.2"
+  }
+}
